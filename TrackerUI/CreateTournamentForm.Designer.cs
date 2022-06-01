@@ -186,6 +186,7 @@
             this.removeSelectedTeamPlayerButton.TabIndex = 17;
             this.removeSelectedTeamPlayerButton.Text = "Remove Selected";
             this.removeSelectedTeamPlayerButton.UseVisualStyleBackColor = false;
+            this.removeSelectedTeamPlayerButton.Click += new System.EventHandler(this.removeSelectedTeamPlayerButton_Click);
             // 
             // createTournamentButton
             // 

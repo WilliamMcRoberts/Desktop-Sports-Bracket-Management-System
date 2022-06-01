@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿
 using TrackerLibrary;
 using TrackerLibrary.Models;
 
@@ -21,24 +13,9 @@ namespace TrackerUI
         public CreateTournamentForm()
         {
             InitializeComponent();
-            //CreateSampleData();
             WireUpLists();
         }
 
-        private void CreateSampleData()
-        {
-            availableTeams.Add(new TeamModel { TeamName = "TestingTeam"});
-            availableTeams.Add(new TeamModel { TeamName = "YouTeam"});
-
-            selectedTeams.Add(new TeamModel { TeamName = "WowsersTeam"});
-            selectedTeams.Add(new TeamModel { TeamName = "ThomasTeam"});
-
-
-            selectedPrizes.Add(new PrizeModel { PlaceName = "TestPlace" });
-            selectedPrizes.Add(new PrizeModel { PlaceName = "HorriblePlace"});
-
-
-        }
 
         private void WireUpLists()
         {
@@ -93,6 +70,11 @@ namespace TrackerUI
             // Put prize model into list of selected prizes
             selectedPrizes.Add(prize);
             WireUpLists();
+        }
+
+        private void removeSelectedTeamPlayerButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
