@@ -7,13 +7,6 @@ using System.Text;
 using System.Threading.Tasks;
 using TrackerLibrary.Models;
 
-// Load the txt file--*
-// Convert the txt to list of prize models--*
-// Find the max id
-// Add the new record with the new id (max + 1)
-// Convert the lprizes to a list of strings
-// Save the list to the txt file
-
 namespace TrackerLibrary.DataAccess.TextHelpers
 {
     public static class TextConnectorProcessor
