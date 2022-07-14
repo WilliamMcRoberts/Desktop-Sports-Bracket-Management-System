@@ -23,14 +23,6 @@ namespace TrackerLibrary.Models
         /// Represents id of a matchup entry
         ///</summary>
         public int Id { get; set; }
-        ///<summary>
-        /// Constructor for Matchup Entry
-        ///</summary>
-        ///<param name="initialScore">
-        ///
-        ///</param>
- 
-
     }
 
 }
